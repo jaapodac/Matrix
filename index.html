@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <title>Matrix Index file</title>
+   <!-- Author: J. Apodaca    -->
+   <!-- Date:   Mar 21, 2014 -->
+   <!-- File:   index.html -->
+   
+   <!-- Style specs are most often in the head -->
+   <!-- Add a little Style (external file) -->
+   <link rel="stylesheet" href="css/Matrix.css">
+   <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+
+   
+</head>
+<body>
+
+		 <!-- Display a button and provide a text division (div) for a result -->
+		 <p>
+		<button id="myButton1" onclick="ClearCanvas()"> <img src="images/kitty.gif"/> Draw It </button>
+		</p>
+		<p>
+	
+    
+    <div id="firstDiv">
+	<p>First Division</p>
+	<p>Some more text.</p></div>
+	<div id="container"></div>
+   
+	
+	<!-- First Code to begin drawing -->
+	<!-- All drawing on the canvas must be done inside a JavaScript -->
+	<canvas id="myCanvas" width="500" height="500" style="border:1px solid #000000;">Your browser doesn't support canvas
+    </canvas>
+<div id="container2"></div>
+<!-- JavaScripts are most often in the body -->
+<!-- Outside JavaScript -->
+<script src="js/Matrix.js"> </script>
+
+
+
+</body>
+</html>
